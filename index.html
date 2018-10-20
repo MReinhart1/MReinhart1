@@ -1,203 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Chrome</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.css">
-</head>
-<body>
 
-<div class="ui menu">
-    <div class="header item">
-        Chrome
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title> Chrome Architecture </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Chrome</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Assignments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase"></div>
+          <a class="btn btn-dark btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Assignments</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+                <div class="intro-heading text-uppercase">
+                  <h1>Welcome To Our Chrome Architecture!</h1>
+                </div>
+            <h3 class="section-subheading text-muted">This website will talk all about the chrome architecture</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Assignments</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/chromeLogo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Assignment 1</h4>
+              <p class="text-muted">Conceptual Architecture</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/chromeLogo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Assignment 2</h4>
+              <p class="text-muted">Concrete Architecture</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/chromeLogo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Assignment 3</h4>
+              <p class="text-muted">Architecture Enhancement</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Team -->
+    <section class="bg-light" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h3 class="section-subheading text-muted">This is who worked on the Chrome Architecture project</h3>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Lianne Zelsman </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Mackenzie Furlong </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+
+
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Will O'neil </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>David Haddad </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Alex Golinescu </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
+              <h4>Michael Reinhart </h4>
+              <p class="text-muted">Chrome Architect</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Here are the links we used to learn</p>
+            <div class="row">
+              <table class="ui celled table eight wide column centered inverted">
+                <thead>
+                <tr>
+                  <th>Link</th>
+                  <th>Description</th>
+                </tr></thead>
+                <tbody>
+                <tr>
+                  <td><a href=" https://www.chromium.org/Home">Home</a></td>
+                  <td>This is the home page to chrome</td>
+                </tr>
+                <tr>
+                  <td><a href="http://szeged.github.io/sprocket/architecture_overview.html">Overview of architecture</a></td>
+                  <td>Architeture overview</td>
+                </tr>
+                <tr>
+                  <td><a href="https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf">Security</a></td>
+                  <td>The security architecture of the chromium browser</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.chromium.org/developers/design-documents/multi-process-architecture">High-level</a></td>
+                  <td>The high level architecture of chrome</td>
+                </tr>
+                <tr>
+                  <td><a href="https://github.com/WICG/page-lifecycle">Webpage lifecycle</a></td>
+                  <td>This is a outline of a new webpage lifecycle API for chrome</td>
+                </tr>
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=Naol_TPPPL0">Video on internal usage</a></td>
+                  <td>Video on how chrome works internally</td>
+                </tr>
+                <tr>
+                  <td><a href="https://blog.chromium.org/2018/09/10-years-of-speed-in-chrome_11.html">Speed</a></td>
+                  <td>How chrome improved on their speed</td>
+                </tr>
+                <tr>
+                  <td><a href="https://developer.chrome.com/apps/">Devloper guide</a></td>
+                  <td>How to develop chrome apps</td>
+                </tr>
+                <tr>
+                  <td><a href="https://developer.chrome.com/extensions">Chrome Extensions</a></td>
+                  <td>About the chrome extensions </td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/get_the_code.md">Platform for Chromium</a></td>
+                  <td>Instructions for getting the code and setting up a build for Chromium for various platforms</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/get_the_code.md">Platform for Chromium</a></td>
+                  <td>Instructions for getting the code and setting up a build for Chromium for various platforms</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=A0Z0ybTCHKs">Multi-process architecture</a></td>
+                  <td>Video on how the multi-processor architecture works on chrome</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.youtube.com/watch?v=ZhDb42M6ZLk">Network Stack</a></td>
+                  <td>Video on how chrome's network stack works</td>
+                </tr>
+
+
+                <tr>
+                  <td><a href="https://archrometects.files.wordpress.com/2009/10/assignment-01-conceptual-architecture-of-google-chrome-archrometects.pdf">Conceptual architecture</a></td>
+                  <td>The conceptual architecture of google chrome</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/software-architecture">Chromium Architecture</a></td>
+                  <td>Another conceptual architecture of google chrome</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome">Web pages</a></td>
+                  <td>How google chrome displays its webpages</td>
+                </tr>
+
+                <tr>
+                  <td><a href="http://sufianalogy.blogspot.com/2012/12/chrome-os-and-system-architecture.html">Chrome OS and System Architecture</a></td>
+                  <td>Another write up of google chrome architecture</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.webopedia.com/DidYouKnow/Hardware_Software/Google_Chrome_OS.asp">Chrome browser</a></td>
+                  <td>How chrome browser works</td>
+                </tr>
+
+
+                <tr>
+                  <td><a href="https://www.slideshare.net/saurabh12098/os-28465990">Slides on google chrome</a></td>
+                  <td>Slides about how google chrome works</td>
+                </tr>
+
+                <tr>
+                  <td><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.151.6634&rep=rep1&type=pdf">Security of Chrome</a></td>
+                  <td>About the security of the chrome browser</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://events.static.linuxfound.org/sites/events/files/slides/chrome.pdf">Chrome OS internals</a></td>
+                  <td>How chrome works internally</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://en.wikipedia.org/wiki/Chrome_OS">Chrome wikipedia</a></td>
+                  <td>What wikipedia says about chrome</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final177_0.pdf">Evaluation of google chrome security</a></td>
+                  <td>An Evaluation of the Google Chrome Extension Security Architecture by Nicholas Carlini, Adrienne Porter Felt, and David Wagner</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://www.slideshare.net/HyungwookLee/android-chromium-rendering-pipeline">Rendering pipelines</a></td>
+                  <td>Talk about how chrome renders pipelines</td>
+                </tr>
+
+                <tr>
+                  <td><a href="https://pdfs.semanticscholar.org/0081/6b774f52031ea160c05181af3251a76220e6.pdf?_ga=2.252716110.638892867.1538444701-469821157.1538444701">Chrome extensions</a></td>
+                  <td>How google chrome extensions analyze threats and countermeasures</td>
+                </tr>
+
+                <tr>
+                  <td><a href="http://delivery.acm.org/10.1145/1540000/1536634/p45-reis.pdf?ip=67.193.131.57&id=1536634&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1538446270_2a980a749dc7076da659fd94e469e32d">Browser Security</a></td>
+                  <td>How google chrome secures its browser</td>
+                </tr>
+
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <span class="copyright">Copyright &copy; cisc322.ga 2018</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Conceptual Architecture</h2>
+                  <div class="container">
+                  <embed src="img/background.pdf" type="application/pdf" width="100%" height="1000px"/>
+                </div>
+                  <div class="container center">
+                    <embed src="img/presentation.pdf" type="application/pdf" width="100%" height="1000px"/></div>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <a class="item" href="index.html">
-        About
-    </a>
 
-    <a class="item" href="information.html">
-        Information
-    </a>
-</div>
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Concrete Architecture</h2>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-    <h1></h1>
-
-
-<div class="ui grid">
-    <div class="row">
-    <table class="ui celled table eight wide column centered">
-        <thead>
-        <tr><th>Name</th>
-        </tr></thead>
-        <tbody>
-        <tr>
-            <td data-label="Name">Michael Reinhart</td>
-        </tr>
-        <tr>
-            <td data-label="Name">Alex Golinescu</td>
-        </tr>
-        <tr>
-            <td data-label="Name">David Haddad</td>
-        </tr>
-        <tr>
-            <td data-label="Name">Will O'neil</td>
-        </tr>
-        <tr>
-            <td data-label="Name">Mackenzie Furlong</td>
-        </tr>
-        <tr>
-            <td data-label="Name">Lianne Zelsman</td>
-        </tr>
-        </tbody>
-    </table>
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Architecture Enhancement</h2>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
-    <h1 class="ui header dividing centered">Links are here</h1>
-    <div class="ui clearing divider"></div>
-    <h3 class="ui header">Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web</h3>
 
 
 
-    <div class="row">
-        <table class="ui celled table eight wide column centered inverted">
-            <thead>
-            <tr>
-                <th>Link</th>
-                <th>Description</th>
-            </tr></thead>
-            <tbody>
-            <tr>
-                <td><a href=" https://www.chromium.org/Home">Home</a></td>
-                <td>This is the home page to chrome</td>
-            </tr>
-            <tr>
-                <td><a href="http://szeged.github.io/sprocket/architecture_overview.html">Overview of architecture</a></td>
-                <td>Architeture overview</td>
-            </tr>
-            <tr>
-                <td><a href="https://seclab.stanford.edu/websec/chromium/chromium-security-architecture.pdf">Security</a></td>
-                <td>The security architecture of the chromium browser</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.chromium.org/developers/design-documents/multi-process-architecture">High-level</a></td>
-                <td>The high level architecture of chrome</td>
-            </tr>
-            <tr>
-                <td><a href="https://github.com/WICG/page-lifecycle">Webpage lifecycle</a></td>
-                <td>This is a outline of a new webpage lifecycle API for chrome</td>
-            </tr>
-            <tr>
-                <td><a href="https://www.youtube.com/watch?v=Naol_TPPPL0">Video on internal usage</a></td>
-                <td>Video on how chrome works internally</td>
-            </tr>
-            <tr>
-                <td><a href="https://blog.chromium.org/2018/09/10-years-of-speed-in-chrome_11.html">Speed</a></td>
-                <td>How chrome improved on their speed</td>
-            </tr>
-            <tr>
-                <td><a href="https://developer.chrome.com/apps/">Devloper guide</a></td>
-                <td>How to develop chrome apps</td>
-            </tr>
-            <tr>
-                <td><a href="https://developer.chrome.com/extensions">Chrome Extensions</a></td>
-                <td>About the chrome extensions </td>
-            </tr>
 
-            <tr>
-                <td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/get_the_code.md">Platform for Chromium</a></td>
-                <td>Instructions for getting the code and setting up a build for Chromium for various platforms</td>
-            </tr>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-            <tr>
-                <td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/get_the_code.md">Platform for Chromium</a></td>
-                <td>Instructions for getting the code and setting up a build for Chromium for various platforms</td>
-            </tr>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-            <tr>
-                <td><a href="https://www.youtube.com/watch?v=A0Z0ybTCHKs">Multi-process architecture</a></td>
-                <td>Video on how the multi-processor architecture works on chrome</td>
-            </tr>
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
-            <tr>
-                <td><a href="https://www.youtube.com/watch?v=ZhDb42M6ZLk">Network Stack</a></td>
-                <td>Video on how chrome's network stack works</td>
-            </tr>
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
 
+  </body>
 
-            <tr>
-                <td><a href="https://archrometects.files.wordpress.com/2009/10/assignment-01-conceptual-architecture-of-google-chrome-archrometects.pdf">Conceptual architecture</a></td>
-                <td>The conceptual architecture of google chrome</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://www.chromium.org/chromium-os/chromiumos-design-docs/software-architecture">Chromium Architecture</a></td>
-                <td>Another conceptual architecture of google chrome</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://www.chromium.org/developers/design-documents/displaying-a-web-page-in-chrome">Web pages</a></td>
-                <td>How google chrome displays its webpages</td>
-            </tr>
-
-            <tr>
-                <td><a href="http://sufianalogy.blogspot.com/2012/12/chrome-os-and-system-architecture.html">Chrome OS and System Architecture</a></td>
-                <td>Another write up of google chrome architecture</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://www.webopedia.com/DidYouKnow/Hardware_Software/Google_Chrome_OS.asp">Chrome browser</a></td>
-                <td>How chrome browser works</td>
-            </tr>
-
-
-            <tr>
-                <td><a href="https://www.slideshare.net/saurabh12098/os-28465990">Slides on google chrome</a></td>
-                <td>Slides about how google chrome works</td>
-            </tr>
-
-            <tr>
-                <td><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.151.6634&rep=rep1&type=pdf">Security of Chrome</a></td>
-                <td>About the security of the chrome browser</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://events.static.linuxfound.org/sites/events/files/slides/chrome.pdf">Chrome OS internals</a></td>
-                <td>How chrome works internally</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://en.wikipedia.org/wiki/Chrome_OS">Chrome wikipedia</a></td>
-                <td>What wikipedia says about chrome</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final177_0.pdf">Evaluation of google chrome security</a></td>
-                <td>An Evaluation of the Google Chrome Extension Security Architecture by Nicholas Carlini, Adrienne Porter Felt, and David Wagner</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://www.slideshare.net/HyungwookLee/android-chromium-rendering-pipeline">Rendering pipelines</a></td>
-                <td>Talk about how chrome renders pipelines</td>
-            </tr>
-
-            <tr>
-                <td><a href="https://pdfs.semanticscholar.org/0081/6b774f52031ea160c05181af3251a76220e6.pdf?_ga=2.252716110.638892867.1538444701-469821157.1538444701">Chrome extensions</a></td>
-                <td>How google chrome extensions analyze threats and countermeasures</td>
-            </tr>
-
-            <tr>
-                <td><a href="http://delivery.acm.org/10.1145/1540000/1536634/p45-reis.pdf?ip=67.193.131.57&id=1536634&acc=OPEN&key=4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1538446270_2a980a749dc7076da659fd94e469e32d">Browser Security</a></td>
-                <td>How google chrome secures its browser</td>
-            </tr>
-
-            </tbody>
-        </table>
-    </div>
-
-
-</div>
-</body>
 </html>
